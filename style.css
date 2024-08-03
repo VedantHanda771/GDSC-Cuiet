@@ -1,0 +1,676 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f0f0f0;
+    overflow-x: hidden; /* Prevent horizontal overflow */
+}
+
+.navbar .logo {
+    height: 40px; /* Adjust the height as needed */
+}
+
+.logo {
+    padding-left: 30px;
+}
+
+.navbar {
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Ensure it stays above other content */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px; /* Adjust as needed */
+    position: fixed;
+}
+
+.gate {
+    width: 100%;
+    height: 500px; /* Increase the height as needed */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.head1 {
+    font-weight: bolder;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* Uncomment this if you need the .glassy class */
+.glassy {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+/* Ensure the navbar items are centered or aligned properly */
+.navbar-nav {
+    margin-left: auto; 
+    padding-right: 28px;/* Aligns the nav items to the right */
+    row-gap: 40px;
+}
+
+.social-buttons {
+    margin-left: 780px;
+}
+
+
+.gif{
+    height: 600px;
+    width: 600px;
+    margin-left: 0;
+}
+
+.shapes{
+    width: 450px;
+    display: flex;
+    margin-left: 1400px;
+    margin-top: -470px;
+}
+
+.logo_main{
+    height: 100px;
+    width: 70px;
+    display: flex;
+    position: relative;
+    /* left: 75%;
+    padding-bottom: 1rem; */
+    /* bottom: 70%; */
+}
+.heading{
+    display: block;
+}
+.main_head{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 45%;
+    margin-top: -550px;
+    
+
+}
+:root {
+    --google-blue: #4285F4;
+    --google-red: #EA4335;
+    --google-yellow: #FBBC05;
+    --google-green: #34A853;
+    --google-grey: ;
+}
+
+.heading::first-letter {
+    color: var(--google-blue); /* Default color, you can change it to other Google colors */
+    font-size: 2.5rem; /* Adjust size if needed */
+    font-weight: bold; /* Make it bold */
+}
+
+.heading:nth-of-type(1)::first-letter {
+    color: var(--google-blue);
+}
+.heading:nth-of-type(2)::first-letter {
+    color: var(--google-red);
+}
+.heading:nth-of-type(3)::first-letter {
+    color: var(--google-yellow);
+}
+.heading:nth-of-type(4)::first-letter {
+    color: var(--google-green);
+}
+.word1 {
+    color: var(--google-green);
+}
+
+
+.para{
+    width: 700px;
+    display: block;
+    /* flex-direction: column; */
+    
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 600px;
+}
+
+/* CSS for Button 1 */
+
+
+
+/* div {
+	text-align: center;
+	margin: 20px;
+} */
+
+#events{
+    margin-top: 3%;
+    margin-bottom: 15%;
+
+}
+#events h1{
+  font-weight: bolder;
+  color: #2EC8FA;
+}
+h1 {
+	font-size: 3.75rem;
+	color: white;
+    text-align: center;
+}
+
+.animation-group {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 30px;
+	margin-top: 30px;
+}
+
+@media screen and (max-width: 420px) {
+	.animation-group {
+		display: grid;
+		gap: 10px;
+		grid-template-columns: repeat(2, auto);
+	}
+}
+
+.animation-group > div {
+	background: #1e1c1e;
+	box-shadow: inset 2px 2px 2px #232323;
+	border-radius: 14px;
+	padding: 20px 30px;
+	max-width: 100%;
+	min-width: 150px;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	align-items: center;
+	cursor: pointer;
+	color: #fff;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 20px;
+	opacity: 0;
+}
+
+.animation-group > div.animate {
+	opacity: 1;
+}
+
+.icon {
+	font-size: 5em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100px;
+	height: 100px;
+	transition: transform 0.3s ease;
+}
+
+.animation-group > div:hover {
+	background: radial-gradient(
+		circle at 50% 45%,
+		rgba(189, 50, 255, 0.2) 0%,
+		#232323 60%
+	);
+	box-shadow: 0 4px 25px rgb(189 50 255 / 25%), inset 2px 2px 2px #393939;
+}
+
+.animation-group > div:hover .icon {
+	transform: scale(1.1);
+}
+
+@keyframes fadeInLeft {
+	0% {
+		opacity: 0;
+		transform: translate3d(-20%, 0, 0);
+	}
+
+	to {
+		opacity: 1;
+		transform: translateZ(0);
+	}
+}
+
+.fadeInLeft {
+	animation-name: fadeInLeft;
+	animation-duration: 1.5s;
+	animation-fill-mode: both;
+}
+
+#organizers {
+    text-align: center;
+    position: relative;
+    margin-top: -100px;
+}
+
+#organizers h1{
+  font-weight: bolder;
+  color: #F8BC05;
+}
+
+.pics {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px; /* Adjust gap as needed */
+    justify-items: center;
+    margin-bottom: 50px; /* Adjust to fit your design */
+}
+
+.pics div {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background: url('/assets/members.svg') no-repeat 100px;
+    background-size: 300px;
+    /* width: 700px; */
+    gap: 10px; /* Adjust spacing between image and text */
+}
+
+.pics img {
+    height: 300px;
+    width: 300px;
+    /* position: relative;
+    left: 20px; */
+}
+
+.org_desc {
+    width: auto;
+    text-align: left;
+    margin-left: 50px; /* Adjust spacing as needed */
+    animation: appearFromRight linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+
+
+
+.leads img {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    background: url('/assets/lead_background.svg') no-repeat center center; /* Adjust the background SVG */
+    background-size: cover;
+}
+#scrollToTopBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 3rem;
+    cursor: pointer;
+    display: none; /* Hide the button initially */
+    z-index: 1000; /* Ensure the button is on top of other content */
+}
+
+@keyframes appear {
+    /* from {
+      opacity: 0;
+      clip-path: inset(100% 100% 0 0);
+    }
+    to {
+      opacity: 1;
+      clip-path: inset(0 0 0 0);
+    } */
+
+    /* from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      } */
+
+      from {
+        opacity: 0;
+        transform: translateX(-100%);
+      }
+      to {
+        opacity: 1;
+        transform: translateX(0);
+      }
+  }
+
+  @keyframes appearFromRight {
+    from {
+      opacity: 0;
+      transform: translateX(100%);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  .pics2 {
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+    
+  }
+  #partners h1{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: 200px;
+    margin-right: 50px;
+  }
+  #partners h3{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: -6rem;
+    font-weight: bold;
+    color: gray;
+
+  }
+  #partners img{
+    /* margin-left: 300px; */
+    position: relative;
+    left: 70rem;
+    bottom: 7rem;
+  }
+#partners h2{
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    font-weight: bolder;
+    color: gray;
+    margin-top: 100px;
+    margin-right: 229px;
+  }
+
+
+  .dive img{
+    width: 200px;
+    height: 200px;
+    
+    display: flex ;
+    position: relative;
+    right: -80%;
+    bottom: -20%;
+    
+  }
+
+  .dive h1{
+    font-weight: bolder;
+    color:lightcoral;
+    margin-top: 100px;
+    margin-left: 270px;
+
+  }
+
+  .f1{
+    display: flex;
+    width: 500px;
+    height: 500px;
+    position: relative;
+    top: -10rem;
+    left: 1rem;
+  }
+  #footer{
+    position: relative;
+    bottom: 300px;
+    margin-bottom: -12rem;
+  }
+
+  #footer h1{
+    font-weight: bolder;
+    color: #007BFF;
+    font-size: 5rem;
+  }
+  
+
+  #footer h3{
+    width: 400px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+    color: grey;
+    margin-top: 50px;
+    
+  }
+  /* join now */
+
+  .custom-button:hover .join {
+    color: white; /* Change text color to white on hover */
+  }
+
+  .logo_img img{
+    height: 200px;
+    width: 200px;
+    gap: 0;
+    /* display: inline-flex; */
+    justify-content: right;
+    align-items: right;
+  }
+
+  .p1{
+    position: relative;
+    /* top: 5rem; */
+    left: 14rem;
+    
+  }
+  .p2{
+    position: relative;
+    right: -10rem;
+  }
+  .p3{
+    position: relative;
+    right: -30rem;
+    top: -12.5rem;
+  }
+  .p4{
+    position: relative;
+    right: -24.7rem;
+    top: -12.5rem;
+  }
+
+  .logo_img{
+    position: relative;
+    width: 50%;
+    margin-left: 0px;
+    margin-top: 200px;
+    /* justify-content: left;
+    align-items: right; */
+    /* right: -20%; */
+  }
+
+
+  /* html, body {
+    height: 100%;
+  } */
+  
+  /* body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: -webkit-radial-gradient(
+      circle farthest-corner at center top,
+      #FFF 0%, #D8DFE9 100%);
+    background-image: radial-gradient(
+      circle farthest-corner at center top,
+      #FFF 0%, #D8DFE9 100%);
+    /* overflow: hidden; */
+  /* } */ 
+  
+  @font-face {
+    font-family: icon;
+    src: url('https://bennettfeely.com/fonts/icons.woff');
+  }
+  
+  /* Manually define the flip-cover styles for each icon */
+  .flip-cover {
+    position: relative;
+    display: inline-block;
+    width: 50px; /* Adjust width as needed */
+    height: 50px; /* Adjust height as needed */
+  }
+  
+  .flip-cover::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #FC1786; /* Default color, adjust for each icon */
+  }
+  
+  /* Add specific styles for each icon */
+  .flip-cover.dribbble::before {
+    background-color: #FC1786;
+  }
+  
+  .flip-cover.twitter::before {
+    background-color: #2EC8FA;
+  }
+  
+  .flip-cover.linkedin::before {
+    background-color: #2672ae;
+  }
+  
+  .flip-cover.email::before {
+    background-color: #f80;
+  }
+
+
+  .frame{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 500px;
+    width: 60px;
+    position: relative;
+     box-shadow:
+     -7px -7px 20px 0px #fff9,
+     -4px -4px 5px 0px #fff9,
+     7px 7px 20px 0px #0002,
+     4px 4px 5px 0px #0001,
+     inset 0px 0px 0px 0px #fff9,
+     inset 0px 0px 0px 0px #0001,
+     inset 0px 0px 0px 0px #fff9,        inset 0px 0px 0px 0px #0001;
+   transition:box-shadow 0.6s cubic-bezier(.79,.21,.06,.81);
+     border-radius: 10px;
+     background-color: whitesmoke;
+  }
+  
+  .btn{
+    height: 35px;
+    width: 35px;
+    border-radius: 3px;
+    background: #e0e5ec;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-tap-highlight-color: transparent;
+    box-shadow:
+     -7px -7px 20px 0px #fff9,
+     -4px -4px 5px 0px #fff9,
+     7px 7px 20px 0px #0002,
+     4px 4px 5px 0px #0001,
+     inset 0px 0px 0px 0px #fff9,
+     inset 0px 0px 0px 0px #0001,
+     inset 0px 0px 0px 0px #fff9,        inset 0px 0px 0px 0px #0001;
+   transition:box-shadow 0.6s cubic-bezier(.79,.21,.06,.81);
+    font-size: 16px;
+    color: rgba(42, 52, 84, 1);
+    text-decoration: none;
+  }
+  .btn:active{
+    box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
+                -4px -4px 6px 0 rgba(116, 125, 136, .2), 
+      inset -4px -4px 6px 0 rgba(255,255,255,.5),
+      inset 4px 4px 6px 0 rgba(116, 125, 136, .3);
+  }
+
+
+  .logo_img2{
+    width: 50%;
+    display: flex;
+    margin-top: 120px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contact{
+    display: inline-flex;
+    width: 100%;
+  }
+
+  .contact h1{
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    position: relative;
+    left: 760px;
+    width: 400px;
+    font-size: 3rem;
+    font-weight: bolder;
+    color: #F8BC05;
+  }
+  
+  .foot2 h6{
+    position: relative;
+    top: -2rem;
+    left: 5rem;
+  }
+
+  .cont {
+    display: flex;
+    align-items: flex-start; /* Align items to the top of the flex container */
+    width: 200px;
+  }
+  
+  .const .rotate90 {  
+    -webkit-transform: rotate(90deg);  
+    -moz-transform: rotate(90deg);  
+    -ms-transform: rotate(90deg);  
+    -o-transform: rotate(90deg);  
+    transform: rotate(90deg);  
+  }
+
+  .ytb{
+    
+    margin-bottom: 100px;
+    margin-left: 70px;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .ytb h1{
+    margin-bottom: 70px;
+    margin-top: 0;
+    font-weight: bolder;
+    color:#34A853 ;
+  }
