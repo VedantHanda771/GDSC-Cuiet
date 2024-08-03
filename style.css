@@ -683,3 +683,210 @@ h1 {
     font-weight: bolder;
     color:#34A853 ;
   }
+
+
+  @media (max-width:768px){
+    *{
+      align-items: center;
+    }
+    .l-constrained-9{
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+    }
+    .l-constrained-8{
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .row-2{
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .text-59{
+      font-size: small;
+    }
+    .l-constrained-5{
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+    }
+    .l-constrained-6, .row-3{
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  
+  @media screen and (max-width: 320px) {
+    body {
+      -moz-transform: scale(0.3);
+      -webkit-transform: scale(0.3);
+      -o-transform: scale(0.3);
+      transform: scale(0.3);
+      transform-origin: 0 0;
+      overflow-x: hidden;
+    }
+    html {
+      height: 100%;
+    }
+  }
+  @media screen and (min-width: 1460px) {
+    body {
+      zoom: 105%;
+      -moz-transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+    -o-transform: scale(1.0);
+    transform: scale(1.0);
+      transform-origin: 0 0;
+      overflow-x: hidden;
+    }
+    html {
+      height: 100%;
+    }
+  }
+  
+  @media screen and (min-width: 1360px) and (max-width: 1460px) {
+    body {
+      zoom: 100%;
+      -moz-transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+    -o-transform: scale(1.0);
+    transform: scale(1.0);
+      transform-origin: 0 0;
+      overflow-x: hidden;
+    }
+    html {
+      height: 100%;
+    }
+  }
+  @media screen and (min-width: 1260px) and (max-width: 1360px) {
+    body {
+      zoom: 95%;
+      -moz-transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+    -o-transform: scale(1.0);
+    transform: scale(1.0);
+      transform-origin: 0 0;
+      overflow-x: hidden;
+    }
+    html {
+      height: 100%;
+    }
+  }
+  @media screen and (min-width: 1160px) and (max-width: 1260px) {
+    body {
+      zoom: 90%;
+      -moz-transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+    -o-transform: scale(1.0);
+    transform: scale(1.0);
+      transform-origin: 0 0;
+      overflow-x: hidden;
+    }
+    html {
+      height: 100%;
+    }
+  }
+  
+  @media screen and (min-width: 1060px) and (max-width: 1160px) {
+    body {
+      zoom: 85%;
+      -moz-transform: scale(1.0);
+      -webkit-transform: scale(1.0);
+      -o-transform: scale(1.0);
+      transform: scale(1.0);
+      transform-origin: 0 0;
+      overflow-x: hidden;
+    }
+    html {
+      height: 100%;
+    }
+  }
+  @media screen and (min-width: 960px) and (max-width: 1060px) {
+    body {
+      zoom: 73%;
+      -moz-transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+    -o-transform: scale(1.0);
+    transform: scale(1.0);
+      transform-origin: 0 0;
+      overflow-x: hidden;
+    }
+    html {
+      height: 100%;
+    }
+  }
+  @media screen and (min-width: 860px) and (max-width: 960px) {
+    body {
+      zoom: 66%;
+      -moz-transform: scale(1.0);
+      -webkit-transform: scale(1.0);
+      -o-transform: scale(1.0);
+      transform: scale(1.0);
+      transform-origin: 0 0;
+      overflow-x: hidden;
+    }
+    html {
+      height: 100%;
+    }
+  }
+  @media screen and (min-width: 760px) and (max-width: 860px) {
+    body {
+      zoom: 59%;
+      -moz-transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+    -o-transform: scale(1.0);
+    transform: scale(1.0);
+      transform-origin: 0 0;
+      overflow-x: hidden;
+    }
+    html {
+      height: 100%;
+    }
+  }
+  @media screen and (min-width: 660px) and (max-width: 760px) {
+    body {
+      zoom: 52%;
+      -moz-transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+    -o-transform: scale(1.0);
+    transform: scale(1.0);
+      transform-origin: 0 0;
+      overflow-x: hidden;
+    }
+    html {
+      height: 100%;
+    }
+  }
+  @media screen and (min-width: 500px) and (max-width: 660px) {
+    body {
+      zoom: 40%;
+      -moz-transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+    -o-transform: scale(1.0);
+    transform: scale(1.0);
+      transform-origin: 0 0;
+      overflow-x: hidden;
+    }
+    html {
+      height: 100%;
+    }
+  }
+  @media screen and (min-width: 320px) and (max-width: 500px) {
+    body {
+      zoom: 27%;
+      -moz-transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+    -o-transform: scale(1.0);
+    transform: scale(1.0);
+      transform-origin: 0 0;
+      overflow-x: hidden;
+    }
+    html {
+      height: 100%;
+    }
+  }
