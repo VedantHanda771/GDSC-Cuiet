@@ -295,6 +295,8 @@ h1 {
 .org_desc {
     width: auto;
     text-align: left;
+    font-weight:500;
+    /* font-style:italic; */
     margin-left: 50px; /* Adjust spacing as needed */
     animation: appearFromRight linear;
     animation-timeline: view();
@@ -466,41 +468,26 @@ h1 {
     width: 200px;
     gap: 0;
     /* display: inline-flex; */
-    justify-content: right;
-    align-items: right;
+    justify-content: center;
+    align-items: center;
   }
-
-  .p1{
-    position: relative;
-    /* top: 5rem; */
-    left: 14rem;
-    
-  }
-  .p2{
-    position: relative;
-    right: -10rem;
-  }
-  .p3{
-    position: relative;
-    right: -30rem;
-    top: -12.5rem;
-  }
-  .p4{
-    position: relative;
-    right: -24.7rem;
-    top: -12.5rem;
-  }
-
   .logo_img{
-    position: relative;
+    /* position: relative; */
     width: 50%;
-    margin-left: 0px;
+    /* height: 80%; */
+    margin-left: 200px;
     margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     /* justify-content: left;
     align-items: right; */
     /* right: -20%; */
   }
 
+
+ 
+ 
 
   /* html, body {
     height: 100%;
