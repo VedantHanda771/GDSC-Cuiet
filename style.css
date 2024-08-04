@@ -941,6 +941,10 @@ h1 {
   .ytb h1{
     margin-left: -5rem;
   }
+
+  html{
+    overflow-x: hidden;
+  }
 }
 
   
