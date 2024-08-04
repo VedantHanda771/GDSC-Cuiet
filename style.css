@@ -202,6 +202,21 @@ body {
   .navbar {
       padding: 5px;
   }
+  .lo2{
+    margin-left: -5rem;
+    font-size: 0.5rem;
+    margin-bottom: -1rem;
+  }
+  .men{
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    margin-top: -1.5rem;
+    margin-right: -23rem;
+  }
+  .im{
+    display: none;
+  }
 
   .navbar-nav {
       row-gap: 10px;
@@ -226,6 +241,15 @@ body {
   .para {
       width: 95%;
   }
+
+  .animation-group {
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+  }
 }
 
 
@@ -239,7 +263,7 @@ body {
 } */
 
 #events{
-    margin-top: 3%;
+    margin-top: 23%;
     margin-bottom: 15%;
 
 }
