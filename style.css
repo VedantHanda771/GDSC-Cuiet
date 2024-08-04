@@ -198,14 +198,15 @@ body {
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 500px) {
   .navbar {
       padding: 5px;
   }
   .lo2{
     margin-left: -5rem;
-    font-size: 0.5rem;
+    font-size: 0.1rem;
     margin-bottom: -1rem;
+    line-height: 1rem;
   }
   .men{
     display: flex;
@@ -247,8 +248,8 @@ body {
     flex-direction: row;
     /* flex-wrap: wrap; */
     justify-content: center;
-    gap: 30px;
-    margin-top: 30px;
+    /* gap: 30px;
+    margin-top: 30px; */
   }
 }
 
@@ -263,8 +264,8 @@ body {
 } */
 
 #events{
-    margin-top: 23%;
-    margin-bottom: 15%;
+    margin-top: 15%;
+    margin-bottom: 7%;
 
 }
 #events h1{
@@ -555,7 +556,7 @@ h1 {
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 500px) {
   #organizers {
       margin-top: 0;
       /* height: 50px; */
@@ -572,6 +573,7 @@ h1 {
       background-position: center;
       width: 100px;
       height: 100px;
+      margin-right: 6rem;
   }
 
   .pics img {
@@ -581,7 +583,10 @@ h1 {
 
   .org_desc {
       margin-left: 0;
-      text-align: center;
+      width: 250px;
+      display: flex;
+      flex-direction: column;
+      /* text-align: center; */
   }
 
   #partners h1,
@@ -889,7 +894,7 @@ h1 {
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 500px) {
   .dive img {
       right: -20%;
       bottom: -5%;
@@ -902,6 +907,10 @@ h1 {
   .f1 {
       width: 200px;
       height: 200px;
+      margin-left: 7rem;
+      /* display: flex;
+      justify-content: center;
+      align-items: center; */
   }
 
   #footer {
@@ -954,6 +963,10 @@ h1 {
   }
   .logo2{
     margin-left: -13px;
+    font-size: 0.5rem;
+  }
+  .logo2 h4{
+    font-size: 1rem;
   }
 
   .ytb2{
