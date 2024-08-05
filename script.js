@@ -98,3 +98,9 @@ function flipCover (css, options) {
 	width: "80px",
 	height: "50px"
   })
+
+  $(document).ready(function() {
+    $('#navbarNav').collapse({
+        toggle: false
+    });
+});
